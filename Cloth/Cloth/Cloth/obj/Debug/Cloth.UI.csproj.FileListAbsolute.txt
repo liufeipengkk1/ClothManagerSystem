@@ -1,0 +1,11 @@
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\Cloth\bin\Debug\Cloth.exe.config
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.exe
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.UI.csprojResolveAssemblyReference.cache
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.UI.admin.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.UI.personMgUI.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.Properties.Resources.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.UI.csproj.GenerateResource.Cache
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\obj\Debug\Cloth.UI.adminManagerUI.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\bin\Debug\Cloth.exe
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth\bin\Debug\Cloth.pdb

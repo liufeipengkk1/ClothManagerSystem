@@ -1,0 +1,5 @@
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth.Model\bin\Release\Cloth.Model.dll
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth.Model\bin\Release\Cloth.Model.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth.Model\obj\Release\Cloth.Model.dll
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth.Model\obj\Release\Cloth.Model.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\Cloth.Model\obj\Release\ClothModel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25444214-1C6A-4441-B431-8AFD51C92EEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClothUI</RootNamespace>
+    <AssemblyName>ClothUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>管理.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>bin\EPPlus 4.0.3\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveManager\ActivityMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveManager\ActivityMgr.Designer.cs">
+      <DependentUpon>ActivityMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveManager\ClothChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveManager\ClothChoose.Designer.cs">
+      <DependentUpon>ClothChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveManager\HistoryActive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveManager\HistoryActive.Designer.cs">
+      <DependentUpon>HistoryActive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveManager\SaleActive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveManager\SaleActive.Designer.cs">
+      <DependentUpon>SaleActive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alterpaswd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alterpaswd.Designer.cs">
+      <DependentUpon>Alterpaswd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\EditCloth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\EditCloth.Designer.cs">
+      <DependentUpon>EditCloth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\LogoMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\LogoMgr.Designer.cs">
+      <DependentUpon>LogoMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveManager\AddActive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveManager\AddActive.Designer.cs">
+      <DependentUpon>AddActive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\SaleChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\SaleChart.Designer.cs">
+      <DependentUpon>SaleChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\SaleSituation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\SaleSituation.Designer.cs">
+      <DependentUpon>SaleSituation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CVideo.cs" />
+    <Compile Include="stuffManager\1\AddPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\1\AddPerson.Designer.cs">
+      <DependentUpon>AddPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\Cloth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\Cloth.Designer.cs">
+      <DependentUpon>Cloth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clothManager\ClothMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clothManager\ClothMgr.Designer.cs">
+      <DependentUpon>ClothMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InnerFormHelper.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\1\Leave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\1\Leave.Designer.cs">
+      <DependentUpon>Leave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\1\OPENSTATE.cs" />
+    <Compile Include="stuffManager\1\personMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\1\personMgr.Designer.cs">
+      <DependentUpon>personMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stuffManager\1\Stuff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\1\Stuff.Designer.cs">
+      <DependentUpon>Stuff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\2\AlterSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\2\AlterSalary.Designer.cs">
+      <DependentUpon>AlterSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\2\MonthSalaryChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\2\MonthSalaryChart.Designer.cs">
+      <DependentUpon>MonthSalaryChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\2\SalaryChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\2\SalaryChart.Designer.cs">
+      <DependentUpon>SalaryChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\2\SalaryMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\2\SalaryMgr.Designer.cs">
+      <DependentUpon>SalaryMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\3\SaleDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\3\SaleDetail.Designer.cs">
+      <DependentUpon>SaleDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\4\AddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\4\AddDepartment.Designer.cs">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\4\DepartmentMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\4\DepartmentMgr.Designer.cs">
+      <DependentUpon>DepartmentMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\AddTiCheng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\AddTiCheng.Designer.cs">
+      <DependentUpon>AddTiCheng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\StuffMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\StuffMgr.Designer.cs">
+      <DependentUpon>StuffMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\3\StatisticMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\3\StatisticMgr.Designer.cs">
+      <DependentUpon>StatisticMgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stuffManager\TiChengMgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stuffManager\TiChengMgr.Designer.cs">
+      <DependentUpon>TiChengMgr.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActiveManager\ActivityMgr.resx">
+      <DependentUpon>ActivityMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiveManager\ClothChoose.resx">
+      <DependentUpon>ClothChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiveManager\HistoryActive.resx">
+      <DependentUpon>HistoryActive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiveManager\SaleActive.resx">
+      <DependentUpon>SaleActive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alterpaswd.resx">
+      <DependentUpon>Alterpaswd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\EditCloth.resx">
+      <DependentUpon>EditCloth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\LogoMgr.resx">
+      <DependentUpon>LogoMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActiveManager\AddActive.resx">
+      <DependentUpon>AddActive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\SaleChart.resx">
+      <DependentUpon>SaleChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\SaleSituation.resx">
+      <DependentUpon>SaleSituation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\1\AddPerson.resx">
+      <DependentUpon>AddPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\Cloth.resx">
+      <DependentUpon>Cloth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clothManager\ClothMgr.resx">
+      <DependentUpon>ClothMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\1\Leave.resx">
+      <DependentUpon>Leave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\1\personMgr.resx">
+      <DependentUpon>personMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="stuffManager\1\Stuff.resx">
+      <DependentUpon>Stuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\2\AlterSalary.resx">
+      <DependentUpon>AlterSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\2\MonthSalaryChart.resx">
+      <DependentUpon>MonthSalaryChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\2\SalaryChart.resx">
+      <DependentUpon>SalaryChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\2\SalaryMgr.resx">
+      <DependentUpon>SalaryMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\3\SaleDetail.resx">
+      <DependentUpon>SaleDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\4\AddDepartment.resx">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\4\DepartmentMgr.resx">
+      <DependentUpon>DepartmentMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\AddTiCheng.resx">
+      <DependentUpon>AddTiCheng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\StuffMgr.resx">
+      <DependentUpon>StuffMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\3\StatisticMgr.resx">
+      <DependentUpon>StatisticMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stuffManager\TiChengMgr.resx">
+      <DependentUpon>TiChengMgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cloth.Model\ClothModel.csproj">
+      <Project>{eb66f7bb-b756-4c1e-a8b2-b88ac247875c}</Project>
+      <Name>ClothModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClothDAL\ClothDAL.csproj">
+      <Project>{3c535d91-f9de-4794-85b9-067d68f48502}</Project>
+      <Name>ClothDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="管理.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

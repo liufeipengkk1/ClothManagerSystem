@@ -1,0 +1,5 @@
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Release\ClothDAL.dll.config
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Release\ClothDAL.dll
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Release\ClothDAL.pdb
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\obj\Release\ClothDAL.dll
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\obj\Release\ClothDAL.pdb

@@ -1,0 +1,17 @@
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.csprojResolveAssemblyReference.cache
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.Login.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.Properties.Resources.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.Registrar.resources
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.csproj.GenerateResource.Cache
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\RegistrarUI.exe.config
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\RegistrarUI.exe
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\RegistrarUI.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\Cloth.Model.dll
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\ClothDAL.dll
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\EPPlus.dll
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\Cloth.Model.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\ClothDAL.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\bin\Debug\EPPlus.xml
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.exe
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.pdb
+C:\Users\LIU\documents\visual studio 2013\Projects\Cloth\RegistrarUI\obj\Debug\RegistrarUI.Alterpaswd.resources

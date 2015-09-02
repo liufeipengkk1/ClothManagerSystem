@@ -1,0 +1,8 @@
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Debug\ClothDAL.dll.config
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Debug\ClothDAL.dll
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Debug\ClothDAL.pdb
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\obj\Debug\Cloth.DAL.csprojResolveAssemblyReference.cache
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\obj\Debug\ClothDAL.dll
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\obj\Debug\ClothDAL.pdb
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Debug\Cloth.Model.dll
+C:\Users\LIU\Documents\Visual Studio 2013\Projects\Cloth\ClothDAL\bin\Debug\Cloth.Model.pdb
